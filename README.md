@@ -1,3 +1,4 @@
+```java
 # bai-1.4
 public class Employee 
 {
@@ -50,6 +51,9 @@ public class Employee
         return "Employee[id="+id+",name="+firstname+" "+lastname+",salary="+salary+"]";
     }
 }
+```
+
+```java
 # bai 1.5
 public class InvoiceItem {
     String id;
@@ -96,6 +100,8 @@ public class InvoiceItem {
         return "InvoiceItem[id=" + id +",desc=" + desc +",qty="+qty+",unitPrice="+ unitPrice +"]";
     }
 }
+```
+```java
 #bai 1.6
 public class Account {
     String id ;
@@ -158,3 +164,4 @@ public class Account {
     return "Account[id=" + id + ",name=" + name + ",balance=" + balance + "]";
     }
 }
+```
